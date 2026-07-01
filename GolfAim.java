@@ -72,16 +72,17 @@ public class GolfAim implements NativeKeyListener
         }
         catch (AWTException e)
         {
-
+            System.err.println("There was an error initializing Robot for mouse control.");
         }
 
+        // Start the JNativeHook global background key listener
         try 
         {
             GlobalScreen.registerNativeHook();
         }
         catch (NativeHookException ex)
         {
-
+            System.err.println("There was an error registering the native hook.");
         }
         
         // add the GolfAim object to the GlobalScreen
