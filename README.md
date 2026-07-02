@@ -1,6 +1,6 @@
-# Skytrac Golf Micro Aim Assistant
+# Skytrak Golf Micro Aim Assistant
 
-- A Java utility designed to allow for micro aim adjustments via the keyboard for the SkyTrac golf sim software.
+- A Java utility designed to allow for micro aim adjustments via the keyboard for the SkyTrak golf sim software.
 
 ## How to use
   * Alt + [ moves the cursor one pixel up
@@ -15,7 +15,7 @@
   * Add the golf-launcher.bat file as a shortcut to your desktop
 
 ## How it works
-  * When the golf-launcher.bat file runs, it simultaneously opens both the GolfAim.jar file and the SkyTrac app. GolfAim.jar will run in the background and allow for micro aim adjustments. When the SkyTrac window is terminated, GolfAim.jar will automatically be terminated as well.
+  * When the golf-launcher.bat file runs, it simultaneously opens both the GolfAim.jar file and the SkyTrak app. GolfAim.jar will run in the background and allow for micro aim adjustments. When the SkyTrak window is terminated, GolfAim.jar will automatically be terminated as well.
 
 ## License
   * This project is open-source and available under the MIT License.
