@@ -9,7 +9,7 @@ import java.awt.MouseInfo;
 
 /**
  * GolfAim listens for global hotkeys (Alt + specific keys) to allow
- * pixel-perfect mouse adjustments and clicking for the SkyTrac simulator.
+ * pixel-perfect mouse adjustments and clicking for the SkyTrak simulator.
  */
 public class GolfAim implements NativeKeyListener
 {
